@@ -1,0 +1,15 @@
+$g-white: #F8F8FF;
+
+.brand {
+	color: $g-white;
+}
+
+ul.nav.navbar-nav {
+	width: 50%;
+	li{
+		width: 50%;
+	}
+	.float-right {
+		float: right;
+	}
+}
