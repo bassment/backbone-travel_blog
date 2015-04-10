@@ -11,8 +11,9 @@
 // about supported directives.
 //
 //= require jquery
+//= require handlebars.runtime
+//= require bootstrap-sprockets
 //= require jquery_ujs
-//= require turbolinks
 //= require underscore
 //= require backbone
 //= require travel_blog

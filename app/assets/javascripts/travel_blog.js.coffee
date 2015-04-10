@@ -1,9 +1,11 @@
-window.TravelBlog =
+window.App =
   Models: {}
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
+  initialize: ->
+  	new App.Routers.MainRouter()
+  	Backbone.history.start()
 
 $(document).ready ->
-  TravelBlog.initialize()
+  App.initialize()
