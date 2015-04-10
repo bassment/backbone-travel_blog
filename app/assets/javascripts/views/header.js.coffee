@@ -1,5 +1,5 @@
 class App.Views.Header extends Backbone.View
-	className: 'navbar navbar-inverse'
+	className: 'navbar navbar-inverse navbar-fixed-top'
 
 	template: HandlebarsTemplates['header']
 
