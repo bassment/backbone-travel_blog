@@ -2,7 +2,6 @@ class App.Routers.MainRouter extends Backbone.Router
 
 	routes:
     "": "index"
-    "travels": "travel"
 
   initialize: ->
     @headerView = new App.Views.Header()
@@ -11,9 +10,8 @@ class App.Routers.MainRouter extends Backbone.Router
 
   index: ->
     @layoutViews()
-
-  travel: ->
-    @layoutViews()
+    @contentView.swapMain(new App.Views.Empty())
+    @contentView.swapSide(new App.Views.Travels({ collection: new App.Collections.Travels }))
     
   layoutViews: ->
     $('#header').html(@headerView.render().el)
