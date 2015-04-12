@@ -1,2 +1,5 @@
 Travel.create header: "Missing Paris days", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 Travel.create header: "Beautiful time in Prague", description: "Duis feugiat finibus quam. Ut lacinia vel lorem at interdum."
+Travel.create header: "Sunny days in Crimea", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+Travel.create header: "Historical walk-along in Vienna", description: "Duis feugiat finibus quam. Ut lacinia vel lorem at interdum."
+Travel.create header: "One day in Krakow", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."

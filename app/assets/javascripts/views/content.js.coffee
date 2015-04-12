@@ -14,5 +14,5 @@ class App.Views.Content extends Backbone.View
     @$('#main-area').html(v.render().el)
 
   renderTravelsView: ->
-    v = new App.Views.Travels()
+    v = new App.Views.Travels(collection: new App.Collections.Travels())
     @$('#sidebar-area').html(v.render().el)
