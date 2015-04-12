@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
   root 'application#index'
-  resources :travels
+  
+  scope 'api' do
+    resources :travels
+  end
 end

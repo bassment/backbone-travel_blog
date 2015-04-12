@@ -2,6 +2,7 @@ class App.Routers.MainRouter extends Backbone.Router
 
 	routes:
     "": "index"
+    "travel": "index"
 
   initialize: ->
     @headerView = new App.Views.Header()

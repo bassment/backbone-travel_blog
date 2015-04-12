@@ -1,6 +1,16 @@
 $white: #fff;
 $light-black: #222;
 $dark-black: #090909;
+$light-blue: #337ab7;
+
+@mixin white-center {
+  color: $white;
+  text-align: center;
+}
+
+.travel-image {
+  background: image-url('rsz_vintage_paris.jpg') center;
+}
 
 .bg {
   background: image-url('rsz_vintage_paris.jpg') center;
@@ -25,10 +35,12 @@ $dark-black: #090909;
 
 .well {
   background-color: $light-black;
-  h3 {
-    color: $white;
-    text-align: center;
-  }
+  @include white-center;
+}
+
+.header {
+  background-color: $light-blue;
+  margin-top: 0;
 }
 
 .btn-default, .btn-default:hover, .btn-default:focus {
@@ -38,7 +50,7 @@ $dark-black: #090909;
   }
 }
 
-#newTravel {
+#new_travel_header {
   width: 260px;
 }
 

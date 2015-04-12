@@ -12,7 +12,7 @@ class App.Views.Travels extends Backbone.View
 
   render: ->
     @$el.html(@template())
-    @collection.each(@renderTravel)
+    @collection.each(@renderTravel, this)
     this
 
   renderTravel: (travel) ->
@@ -24,4 +24,7 @@ class App.Views.Travels extends Backbone.View
     attributes = header: $('#new_travel_header').val()
     @collection.create attributes,
     wait: true
-    $('#new_travel')[0].reset()
+    success: -> 
+      $('#new_travel')[0].reset()
+      Backbone.history.navigate('/')
+    error: -> alert("Field can't be blank")

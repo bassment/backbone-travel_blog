@@ -2,6 +2,7 @@ $white: #fff;
 $g-white: #F8F8FF;
 $dark-grey: #A9A9A9;
 $light-grey: #D3D3D3;
+$light-blue: #337ab7;
 
 // 'Travel Blog' and 'Login' brands style
 .navbar-brand {
@@ -28,4 +29,10 @@ ul.nav.navbar-nav {
 			color: $white;
 		}
 	}
+	li.active {
+		a, a:hover, a:focus {
+			background-color: $light-blue;
+			border: 1px solid $white;
+		}
+	} 
 }
