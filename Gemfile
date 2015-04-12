@@ -46,3 +46,4 @@ end
 gem 'handlebars_assets', '~> 0.20.1'
 gem 'bootstrap-sass', '~> 3.3.4.1'
 gem 'backbone-on-rails', '~> 1.1.2.1'
+gem 'responders', '~> 2.1.0'

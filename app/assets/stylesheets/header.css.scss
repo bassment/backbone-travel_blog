@@ -3,11 +3,20 @@ $g-white: #F8F8FF;
 $dark-grey: #A9A9A9;
 $light-grey: #D3D3D3;
 
+// 'Travel Blog' and 'Login' brands style
 .navbar-brand {
 	width: 15%;
 	text-align: center;
+	.brand {
+		color: $g-white;
+	}
 }
 
+#margin-off {
+	margin: 0;
+}
+
+// 'List View' and 'Grid View' switchers style
 ul.nav.navbar-nav {
 	width: 70%;
 	border-left: 1px solid $g-white;
@@ -19,12 +28,4 @@ ul.nav.navbar-nav {
 			color: $white;
 		}
 	}
-}
-
-.brand {
-	color: $g-white;
-}
-
-#margin-off {
-	margin: 0;
 }
