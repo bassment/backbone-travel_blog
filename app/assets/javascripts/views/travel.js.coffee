@@ -4,7 +4,7 @@ class App.Views.Travel extends Backbone.View
     'data-toggle': "pill"
 
   events:
-    "click": "showDetails"
+    "click a.detail-travel": "showDetails"
 
   showDetails: (event) ->
     event.preventDefault()
