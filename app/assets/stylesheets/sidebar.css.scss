@@ -1,6 +1,9 @@
 // New travel input + button style
-.btn-default, .btn-default:hover, .btn-default:focus {
+.btn-default {
   background-color: $light-black;
+  &:hover, &:focus, &:active {
+    background-color: $light-green;
+  }
   .glyphicon-plus {
     color: $white;
   }
@@ -10,7 +13,7 @@
   width: 80%;
 }
 
-#new_travel_header{
+#new_travel_header {
   width: 98%;
 }
 
@@ -31,11 +34,18 @@
       background-color: inherit;
       color: $white;
       text-align: center;
+      &:hover, &:focus, &:active {
+        background-color: $dark-red;
+      }
     }
     a.detail-travel {
       width: 85%;
       background-color: inherit;
       color: $white;
+      &:hover, &:focus, &:active {
+        background-color: $light-blue;
+        border-radius: 0px;
+      }
     }
     .glyphicon-remove {
       font-size: 1.1em;
