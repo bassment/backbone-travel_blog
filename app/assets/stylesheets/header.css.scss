@@ -1,9 +1,3 @@
-$white: #fff;
-$g-white: #F8F8FF;
-$dark-grey: #A9A9A9;
-$light-grey: #D3D3D3;
-$light-blue: #337ab7;
-
 // 'Travel Blog' and 'Login' brands style
 .navbar-brand {
 	width: 15%;
@@ -22,6 +16,7 @@ ul.nav.navbar-nav {
 	width: 70%;
 	border-left: 1px solid $g-white;
 	border-right: 1px solid $g-white;
+	
 	li{
 		width: 50%;
 		text-align: center;

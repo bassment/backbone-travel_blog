@@ -1,6 +1,8 @@
+// Fix for Top and bottom bars are not overlaying the content
 body { 
 	padding-top: 50px;
 	padding-bottom: 70px;
+
 	.navbar-fixed-top {
 		margin-bottom: 0px;
 	}

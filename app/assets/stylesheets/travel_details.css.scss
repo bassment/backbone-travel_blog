@@ -1,0 +1,10 @@
+// Travel-details style
+.well {
+  background-color: $light-black;
+  @include white-center;
+}
+
+.heading {
+  background-color: $light-blue;
+  margin-top: 0;
+}

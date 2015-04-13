@@ -1,0 +1,16 @@
+// Variables and mixins available in all tree files
+$white: #fff;
+$g-white: #F8F8FF;
+
+$light-black: #222;
+$dark-black: #090909;
+
+$light-blue: #337ab7;
+
+$dark-grey: #A9A9A9;
+$light-grey: #D3D3D3;
+
+@mixin white-center {
+  color: $white;
+  text-align: center;
+}
