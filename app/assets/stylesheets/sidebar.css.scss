@@ -15,9 +15,22 @@
   margin-top: 20px;
   li {
     background-color: $light-black;
-    a, a:hover, a:focus {
+    a {
+      display: inline-block;
+    }
+    a.delete-travel {
+      width: 15%;
       background-color: inherit;
       color: $white;
+      text-align: center;
+    }
+    a.detail-travel {
+      width: 85%;
+      background-color: inherit;
+      color: $white;
+    }
+    .glyphicon-remove {
+      font-size: 1.1em;
     }
   }
 }
